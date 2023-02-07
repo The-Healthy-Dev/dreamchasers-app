@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "module": "ESNext",
+    "isolatedModules": true
+  },
+  "include": ["src"]
+}

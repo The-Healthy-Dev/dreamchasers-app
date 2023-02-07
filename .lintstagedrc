@@ -1,0 +1,4 @@
+{
+  "*.+(js|jsx)": ["eslint"],
+  "**/*.+(js|jsx|json|css|less|scss|md|mdx)": ["prettier --write"]
+}

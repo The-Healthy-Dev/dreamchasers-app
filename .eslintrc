@@ -1,0 +1,43 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "plugin:tailwindcss/recommended"
+  ],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/prop-types": "warn",
+    "react/react-in-jsx-scope": "off",
+    "tailwindcss/classnames-order": "warn",
+    "tailwindcss/no-custom-classname": [
+      "warn",
+      {
+        "config": "tailwind.config.js",
+        "respectPrefix": false,
+        "severity": "warn",
+        "whitelist": ["App", "custom\\-[1-3]"]
+      }
+    ],
+    "tailwindcss/no-contradicting-classname": "error"
+  },
+  "plugins": ["react", "react-hooks", "tailwindcss"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  }
+}

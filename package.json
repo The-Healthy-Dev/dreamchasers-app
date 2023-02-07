@@ -1,0 +1,52 @@
+{
+  "name": "dreamchasers-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "prepare": "husky install",
+    "lint": "eslint --ignore-path .gitignore --ext js,jsx .",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|jsx|json|css|less|scss|ts|tsx|md|mdx)\""
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "^2.0.0",
+    "@headlessui/react": "^1.7.10",
+    "@heroicons/react": "^2.0.14",
+    "@netlify/functions": "^1.4.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^3.1.4",
+    "react-router-dom": "^6.8.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-tailwindcss": "^3.8.3",
+    "husky": "^8.0.3",
+    "jsdom": "^21.1.0",
+    "lint-staged": "^13.1.1",
+    "logt": "^1.4.5",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.3",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.0",
+    "vitest": "^0.28.4"
+  }
+}
